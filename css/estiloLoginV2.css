@@ -1,0 +1,143 @@
+body{
+
+    background: rgb(219,236,237);
+    background: linear-gradient(90deg, rgba(219,236,237,1) 0%, rgba(219,236,237,1) 55%, rgba(219,236,237,1) 100%);
+}
+@media screen and (max-width: 640px) {
+	.main-content{width: 90%;}
+	.company__info{
+		display: none;
+	}
+	.login_form{
+		border-top-left-radius:20px;
+		border-bottom-left-radius:20px;
+	}
+}
+@media screen and (min-width: 642px) and (max-width:800px){
+	.main-content{width: 70%;}
+}
+	.bad {
+		text-align: center;
+		text-align: center;
+		width: 100%;
+		padding: 12px;
+		background-color: rgb(35, 202, 160);
+		color: #fff
+	}
+	
+.off{
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: rgb(255, 253, 253);
+	color: #fff
+
+}
+.mensaje{
+	width: 100%;
+	max-width: 350px;
+	margin: auto;
+	margin-top: 20px;
+	text-align: left;
+	padding: 6px;
+	color: red;
+  }
+  .main-content{
+	width: 50%;
+	border-radius: 20px;
+	box-shadow: 0 5px 5px rgba(0,0,0,.4);
+	margin: 5em auto;
+	display: flex;
+}
+.main-content{
+	width: 50%;
+	border-radius: 20px;
+	box-shadow: 0 5px 5px rgba(0,0,0,.4);
+	margin: 5em auto;
+	display: flex;
+}
+.company__info{
+    background: rgb(2, 95, 104);
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: #fff;
+   
+	border-radius: 20px;
+}
+.fa-android{
+	font-size:3em;
+}
+.row > h2{
+	color:#0fb9b9;
+}
+.login_form{
+	background-color: #fff;
+	border-top-right-radius:20px;
+	border-bottom-right-radius:20px;
+}
+#titulo{
+    text-align: center;
+}
+form{
+	padding: 0 2em;
+}
+.form__input{
+	width: 100%;
+	border:0px solid transparent;
+	border-radius: 0;
+	border-bottom: 1px solid #008080;
+	padding: 1em .5em .5em;
+	padding-left: 2em;
+	outline:none;
+	margin:.5em auto;
+	transition: all .5s ease;
+}
+.form__input:focus{
+	border-bottom-color: #008080;
+	box-shadow: 0 0 5px rgba(0,80,80,.4); 
+	border-radius: 4px;
+    width: 70%;
+}
+.btn{
+	transition: all .5s ease;
+	
+	border-radius:30px;
+	color:#008080;
+	font-weight: 600;
+	background-color: #fff;
+	border: 1px solid #008080;
+	margin-top: 1em;
+	margin-bottom: 1em;
+    
+}
+.btn:hover, .btn:focus{
+	background-color: #008080;
+	color:#fff;
+    
+    
+}
+.navbar{
+    background: rgb(2, 95, 104);
+  
+}
+#botonEntrar{
+    width: 600px;
+    height: 50px;
+    
+ 
+}
+#botonFace{
+    transition: all .5s ease;
+	width: 70%;
+	border-radius:30px;
+	color:#008080;
+	font-weight: 600;
+	background-color: #fff;
+	border: 1px solid #008080;
+	margin-top: 1em;
+	margin-bottom: 1em;   
+  
+}

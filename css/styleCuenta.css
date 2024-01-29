@@ -1,0 +1,22 @@
+.nav__item:hover {
+  background-color: blue;
+  color: white;
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.1);
+  transform: scale(.85);
+}
+
+.blue-box {
+  display: inline-block;
+  padding: 8px 16px;
+  border: 2px solid blue;
+  border-radius: 8px;
+  color: blue;
+  text-decoration: none;
+}
+
+.blue-box:hover {
+  background-color: blue;
+  color: white;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
